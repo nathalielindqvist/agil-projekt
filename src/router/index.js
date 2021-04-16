@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Axel from "../views/Axel";
+
 const routes = [
   {
     path: "/",

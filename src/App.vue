@@ -1,8 +1,21 @@
 <template>
-  <div id="nav">
-    <router-link to="/about">About</router-link>
+  <div id="mainContainer">
+    <!-- <router-link to="/Axel">Axel</router-link> -->
     <router-view />
   </div>
 </template>
 
-<style scoped></style>
+<script>
+export default {};
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: inherit;
+}
+#mainContainer {
+  height: inherit;
+}
+</style>
