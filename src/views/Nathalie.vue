@@ -75,40 +75,42 @@ export default {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 20%);
-    row-gap: 10px;
+    gap: 10px;
 }
 
 #grid-item-image1 {
     grid-column: 5/6;
     grid-row: 1/2;
-    filter: sepia(20%);
+    filter: opacity(90%);
     box-shadow: 5px 10px 10px 5px #919191;
-    transition: transform 0.5s
+    transition: transform 0.5s;
 }
 
 #grid-item-image2 {
     grid-column: 1/2;
     grid-row: 1/2;
+    transition: transform 0.5s;
 }
 
 #grid-item-image3 {
     grid-column: 1/2;
     grid-row: 1/3;
-    filter: sepia(50%);
+    filter: opacity(90%);
     box-shadow: 5px 10px 10px 5px #919191;
-    transition: transform 0.5s
+    transition: transform 0.5s;
 }
 
-#grid-item-image3:hover, #grid-item-image4:hover, #grid-item-image1:hover {
+#grid-item-image1:hover, #grid-item-image2:hover, #grid-item-image3:hover, #grid-item-image4:hover {
     transform: scale(1.1, 1.1);
+    filter: opacity(80%);
 }
 
 #grid-item-image4 {
     grid-column: 5/6;
     grid-row: 4/6;
-    filter: sepia(50%);
+    filter: opacity(90%);
     box-shadow: 5px 10px 10px 5px #919191;
-    transition: transform 0.5s
+    transition: transform 0.5s;
 }
 
 .grid-item-profile {
