@@ -3,14 +3,14 @@
       <div class="content">
           <h1 class="grid-item-header">Profile</h1>
           <div class="grid-item-container">
-          <img id="grid-item-image1" src="../assets/Nathalie.jpg" alt="Profile picture Nathalie" height="250">
+          <img id="grid-item-image1" src="../assets/Nathalie.jpg" alt="Profile picture Nathalie" height="300">
           <p class="grid-item-profile">Hi there! My name is Nathalie Lindqvist, a 26 year old woman who has a passion for that little extra. May it be a song performed by a favourite band such as Kent or Avenged Sevenfold, an exquisite scoop of chocolate ice cream or an extra hour spent on making a freshly coded web site look just right. Frontend development is songthing that will never be "just a job" for me. When there's so much to do and learn it's impossible to be bored!</p>
           </div>
           <hr>
 
           <h1 class="grid-item-header">Expertise</h1>
           <div class="grid-item-container">
-          <img id="grid-item-image2" src="../assets/expertise.png" alt="Simple HTML tag symbole" height="250">
+          <img id="grid-item-image2" src="../assets/expertise.png" alt="Simple HTML tag symbole" height="300">
           <div class="grid-item-expertise">
             <p>Through studies I have acquired theoretical and/or practical knowledge in:</p>
             <ul>
@@ -31,13 +31,13 @@
           <h1 class="grid-item-header">Portfolio</h1>
           <div class="grid-item-container">
           <a href="http://mobelbiblioteket.se/" target="_blank">
-            <img id="grid-item-image3" src="../assets/chair.jpg" alt="Arm chair" height="250">
+            <img id="grid-item-image3" src="../assets/chair.jpg" alt="Arm chair" height="300">
           </a>
           <section class="grid-item-portfolio1">
             <h3>Möbelbiblioteket (real project)</h3>
-            <p>During spring and summer 2019 I had the honor to work as a junior frontend developer on the project Möbelbiblioteket, a service where users can borrow furniture from one another. You can check it out by <a href="http://mobelbiblioteket.se/" target="_blank">clicking here!</a></p>
+            <p>During spring and summer 2019 I had the honor to work as a junior frontend developer on the project Möbelbiblioteket, a service where users can borrow furniture from one another. You can check it out by <a id="text-link" href="http://mobelbiblioteket.se/" target="_blank">clicking here!</a></p>
           </section>
-              <img id="grid-item-image4" src="../assets/doctor.jpg" alt="Cild playing doctor" height="250">
+              <img id="grid-item-image4" src="../assets/doctor.jpg" alt="Cild playing doctor" height="300">
           <section class="grid-item-portfolio2">
               <h3>Doktor.se (fictional project)</h3>
               <p>As part of a project group in 2018 i got to take part in shaping the app Doktor.se, an app where patients can get help from healthcare staff through video calls, ask for advice or renew existing prescriptions.</p>
@@ -68,7 +68,7 @@ export default {
     margin: auto;
     padding: 20px 20px 100px 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 5px 10px 20px 5px #217354;
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 
 .grid-item-container {
@@ -76,14 +76,15 @@ export default {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 20%);
     gap: 10px;
+    margin: 20px;
 }
 
 #grid-item-image1 {
     grid-column: 5/6;
     grid-row: 1/2;
     filter: opacity(90%);
-    box-shadow: 5px 10px 10px 5px #919191;
     transition: transform 0.5s;
+    clip-path: polygon(0 0%, 100% 0%, 100% 94%, 0% 100%);
 }
 
 #grid-item-image2 {
@@ -96,25 +97,28 @@ export default {
     grid-column: 1/2;
     grid-row: 1/3;
     filter: opacity(90%);
-    box-shadow: 5px 10px 10px 5px #919191;
     transition: transform 0.5s;
-}
-
-#grid-item-image1:hover, #grid-item-image2:hover, #grid-item-image3:hover, #grid-item-image4:hover {
-    transform: scale(1.1, 1.1);
-    filter: opacity(80%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 94%);
 }
 
 #grid-item-image4 {
     grid-column: 5/6;
     grid-row: 4/6;
     filter: opacity(90%);
-    box-shadow: 5px 10px 10px 5px #919191;
     transition: transform 0.5s;
+    clip-path: polygon(0 0%, 100% 5%, 100% 100%, 0% 100%);
+}
+
+#grid-item-image1:hover,
+#grid-item-image2:hover,
+#grid-item-image3:hover,
+#grid-item-image4:hover {
+    transform: scale(1.1, 1.1);
+    filter: opacity(80%);
 }
 
 .grid-item-profile {
-    grid-column: 1/5;
+    grid-column: 2/4;
     grid-row: 1/3;
 }
 
@@ -124,13 +128,31 @@ export default {
 }
 
 .grid-item-portfolio1 {
-    grid-column: 3/6;
+    grid-column: 3/5;
     grid-row: 1/3;
 }
 
 .grid-item-portfolio2 {
-    grid-column: 1/4;
+    grid-column: 2/4;
     grid-row: 4/6;
+}
+
+#text-link {
+    text-decoration: none;
+}
+
+#text-link:hover {
+    text-decoration: underline;
+    color: #31af7f;
+}
+
+.grid-item-header {
+    margin: 1em 0;
+}
+
+ul {
+    max-width: 120px;
+    margin: auto;
 }
 
 </style>
