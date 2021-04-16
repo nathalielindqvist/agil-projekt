@@ -1,33 +1,46 @@
 <template>
   <div class="container">
       <div class="content">
-          <h1>Profile</h1>
-          <img src="../assets/Nathalie.jpg" alt="Profile picture Nathalie" height="250">
-          <p>Hi there! My name is Nathalie Lindqvist, a 26 year old woman who has a passion for that little extra. May it be a song performed by a favourite band such as Kent or Avenged Sevenfold, an exquisite scoop of chocolate ice cream or an extra hour spent on making a freshly coded web site look just right. Frontend development is songthing that will never be "just a job" for me. When there's so much to do and learn it's impossible to be bored!</p>
+          <h1 class="grid-item-header">Profile</h1>
+          <div class="grid-item-container">
+          <img id="grid-item-image1" src="../assets/Nathalie.jpg" alt="Profile picture Nathalie" height="250">
+          <p class="grid-item-profile">Hi there! My name is Nathalie Lindqvist, a 26 year old woman who has a passion for that little extra. May it be a song performed by a favourite band such as Kent or Avenged Sevenfold, an exquisite scoop of chocolate ice cream or an extra hour spent on making a freshly coded web site look just right. Frontend development is songthing that will never be "just a job" for me. When there's so much to do and learn it's impossible to be bored!</p>
+          </div>
           <hr>
-          <h1>Expertise</h1>
-          <img src="../assets/expertise.png" alt="Simple HTML tag symbole" height="250">
-          <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Node</li>
-              <li>MySQL</li>
-              <li>Vue</li>
-              <li>React</li>
-          </ul>
+
+          <h1 class="grid-item-header">Expertise</h1>
+          <div class="grid-item-container">
+          <img id="grid-item-image2" src="../assets/expertise.png" alt="Simple HTML tag symbole" height="250">
+          <div class="grid-item-expertise">
+            <p>Through studies I have acquired theoretical and/or practical knowledge in:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node</li>
+                <li>MySQL</li>
+                <li>Vue</li>
+                <li>React</li>
+                <li>Web security</li>
+            </ul>
+          </div>
+          </div>
           <hr>
-          <h1>Portfolio</h1>
-          <section>
-          <img src="../assets/chair.jpg" alt="Arm chair" height="250">
-          <h3>Möbelbiblioteket (real project)</h3>
-          <p>During spring and summer 2019 I had the honor to work as a junior frontend developer on the project Möbelbiblioteket, a service where users can borrow furniture from one another. You can check it out by <a href="http://mobelbiblioteket.se/" target="_blank">clicking here!</a></p>
+
+
+          <h1 class="grid-item-header">Portfolio</h1>
+          <div class="grid-item-container">
+          <img id="grid-item-image3" src="../assets/chair.jpg" alt="Arm chair" height="250">
+          <section class="grid-item-portfolio1">
+            <h3>Möbelbiblioteket (real project)</h3>
+            <p>During spring and summer 2019 I had the honor to work as a junior frontend developer on the project Möbelbiblioteket, a service where users can borrow furniture from one another. You can check it out by <a href="http://mobelbiblioteket.se/" target="_blank">clicking here!</a></p>
           </section>
-          <section>
-              <img src="../assets/doctor.jpg" alt="Cild playing doctor" height="250">
+              <img id="grid-item-image4" src="../assets/doctor.jpg" alt="Cild playing doctor" height="250">
+          <section class="grid-item-portfolio2">
               <h3>Doktor.se (fictional project)</h3>
-            <p>As part of a project group in 2018 i got to take part in shaping the app Doktor.se, an app where patients can get help from healthcare staff through video calls, ask for advice or renew existing prescriptions.</p>
+              <p>As part of a project group in 2018 i got to take part in shaping the app Doktor.se, an app where patients can get help from healthcare staff through video calls, ask for advice or renew existing prescriptions.</p>
           </section>
+          </div>
 
 
       </div>
@@ -43,5 +56,67 @@ export default {
 </script>
 
 <style scoped>
+
+.container {
+    background-image: linear-gradient(to bottom right, #40edaa, #31af7f);
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    padding: 20px 20px 100px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 10px 20px 10px #636363;
+}
+
+.grid-item-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 20%);
+    row-gap: 10px;
+}
+
+#grid-item-image1 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    filter: sepia(50%);
+}
+
+#grid-item-image2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#grid-item-image3 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    filter: sepia(50%);
+}
+
+#grid-item-image4 {
+    grid-column: 5/6;
+    grid-row: 4/6;
+    filter: sepia(50%);
+}
+
+.grid-item-profile {
+    grid-column: 1/5;
+    grid-row: 1/3;
+}
+
+.grid-item-expertise {
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.grid-item-portfolio1 {
+    grid-column: 3/6;
+    grid-row: 1/3;
+}
+
+.grid-item-portfolio2 {
+    grid-column: 1/4;
+    grid-row: 4/6;
+}
 
 </style>
