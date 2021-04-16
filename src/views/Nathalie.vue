@@ -6,7 +6,7 @@
               <a id="grid-item-image1" href="#">
                 <img src="../assets/Nathalie.jpg" alt="Profile picture Nathalie" height="300">
               </a>
-          <p class="grid-item-profile">Hi there! My name is Nathalie Lindqvist, a 26 year old woman who has a passion for that little extra. May it be a song performed by a favourite band such as Kent or Avenged Sevenfold, an exquisite scoop of chocolate ice cream or an extra hour spent on making a freshly coded web site look just right. Frontend development is songthing that will never be "just a job" for me. When there's so much to do and learn it's impossible to be bored!</p>
+          <p class="grid-item-profile">Hi there! My name is Nathalie Lindqvist, a 26 year old woman who has a passion for that little extra. May it be a song performed by a favourite band such as Kent or Avenged Sevenfold, an exquisite scoop of chocolate ice cream or an extra hour spent on making a freshly coded web site look just right. Frontend development is something that will never be "just a job" for me. When there's so much to do and learn it's impossible to be bored!</p>
           </div>
           <hr>
 
@@ -70,7 +70,7 @@ export default {
 }
 
 .content {
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 20px 20px 100px 20px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -128,7 +128,7 @@ export default {
 }
 
 .grid-item-profile {
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 1/3;
 }
 
@@ -138,12 +138,12 @@ export default {
 }
 
 .grid-item-portfolio1 {
-    grid-column: 3/5;
+    grid-column: 3/6;
     grid-row: 1/3;
 }
 
 .grid-item-portfolio2 {
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 4/6;
 }
 
