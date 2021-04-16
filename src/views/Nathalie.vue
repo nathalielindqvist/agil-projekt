@@ -30,7 +30,9 @@
 
           <h1 class="grid-item-header">Portfolio</h1>
           <div class="grid-item-container">
-          <img id="grid-item-image3" src="../assets/chair.jpg" alt="Arm chair" height="250">
+          <a href="http://mobelbiblioteket.se/" target="_blank">
+            <img id="grid-item-image3" src="../assets/chair.jpg" alt="Arm chair" height="250">
+          </a>
           <section class="grid-item-portfolio1">
             <h3>Möbelbiblioteket (real project)</h3>
             <p>During spring and summer 2019 I had the honor to work as a junior frontend developer on the project Möbelbiblioteket, a service where users can borrow furniture from one another. You can check it out by <a href="http://mobelbiblioteket.se/" target="_blank">clicking here!</a></p>
@@ -66,7 +68,7 @@ export default {
     margin: auto;
     padding: 20px 20px 100px 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 5px 10px 20px 10px #636363;
+    box-shadow: 5px 10px 20px 5px #217354;
 }
 
 .grid-item-container {
@@ -79,7 +81,9 @@ export default {
 #grid-item-image1 {
     grid-column: 5/6;
     grid-row: 1/2;
-    filter: sepia(50%);
+    filter: sepia(20%);
+    box-shadow: 5px 10px 10px 5px #919191;
+    transition: transform 0.5s
 }
 
 #grid-item-image2 {
@@ -91,12 +95,20 @@ export default {
     grid-column: 1/2;
     grid-row: 1/3;
     filter: sepia(50%);
+    box-shadow: 5px 10px 10px 5px #919191;
+    transition: transform 0.5s
+}
+
+#grid-item-image3:hover, #grid-item-image4:hover, #grid-item-image1:hover {
+    transform: scale(1.1, 1.1);
 }
 
 #grid-item-image4 {
     grid-column: 5/6;
     grid-row: 4/6;
     filter: sepia(50%);
+    box-shadow: 5px 10px 10px 5px #919191;
+    transition: transform 0.5s
 }
 
 .grid-item-profile {
