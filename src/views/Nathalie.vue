@@ -65,10 +65,13 @@ export default {
 
 <style scoped>
 
+/*>>>>>>>>>>>>>>> Background color <<<<<<<<<<<<<<<*/
 .container {
     background-image: linear-gradient(to bottom right, #40edaa, #31af7f);
 }
 
+
+/*>>>>>>>>>>>>>>> General background layout <<<<<<<<<<<<<<<*/
 .content {
     width: 60%;
     margin: auto;
@@ -77,6 +80,8 @@ export default {
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 
+
+/*>>>>>>>>>>>>>>> Grid layout <<<<<<<<<<<<<<<*/
 .grid-item-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -85,6 +90,8 @@ export default {
     margin: 20px;
 }
 
+
+/*>>>>>>>>>>>>>>> Images: grid placement, styling & animation <<<<<<<<<<<<<<<*/
 #grid-item-image1 {
     grid-column: 5/6;
     grid-row: 1/2;
@@ -119,6 +126,8 @@ export default {
     height: 300px;
 }
 
+
+/*>>>>>>>>>>>>>>> Hover animation images <<<<<<<<<<<<<<<*/
 #grid-item-image1:hover,
 #grid-item-image2:hover,
 #grid-item-image3:hover,
@@ -127,6 +136,8 @@ export default {
     filter: opacity(80%);
 }
 
+
+/*>>>>>>>>>>>>>>> Grid placement text <<<<<<<<<<<<<<<*/
 .grid-item-profile {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -147,6 +158,8 @@ export default {
     grid-row: 4/6;
 }
 
+
+/*>>>>>>>>>>>>>>> Link styling <<<<<<<<<<<<<<<*/
 .text-link {
     text-decoration: none;
 }
@@ -156,10 +169,14 @@ export default {
     color: #31af7f;
 }
 
+
+/*>>>>>>>>>>>>>>> Header styling <<<<<<<<<<<<<<<*/
 .grid-item-header {
     margin: 1em 0;
 }
 
+
+/*>>>>>>>>>>>>>>> UL styling <<<<<<<<<<<<<<<*/
 ul {
     max-width: 120px;
     margin: auto;
