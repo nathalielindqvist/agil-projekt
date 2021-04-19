@@ -6,6 +6,7 @@ import pakorn from '../views/Profile-p.vue'
 
 import Nathalie from '../views/Nathalie.vue'
 
+import ProfileDanny from "../views/ProfileDanny.vue"
 
 const routes = [
   {
@@ -29,6 +30,12 @@ const routes = [
     path: '/nathalie',
     name: 'Nathalie',
     component: Nathalie
+  },
+
+  {
+    path: '/danny',
+    name: 'ProfileDanny',
+    component: ProfileDanny
   }
 ]
 
