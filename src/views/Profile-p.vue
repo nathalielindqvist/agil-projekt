@@ -1,7 +1,5 @@
 <template>
-  <div class="pakorn">
-    
-  </div>
+  <div></div>
 </template>
 
 <script>
