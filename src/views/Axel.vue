@@ -25,7 +25,7 @@
       <About />
     </div>
     <div class="axelViewContainer" id="containerThree">
-      <Contact />
+      <Contact id="contactText" />
     </div>
   </div>
 </template>
@@ -107,5 +107,9 @@ body::-webkit-scrollbar {
 }
 #containerThree {
   background-color: rgb(30, 91, 128);
+}
+
+#contactText:hover {
+  background-color: orangered;
 }
 </style>
