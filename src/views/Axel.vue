@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   background-color: rgb(10, 12, 41);
   margin: 0;

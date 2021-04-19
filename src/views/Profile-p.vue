@@ -156,14 +156,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:wght@600&display=swap');
 
 :root{
     --primary-color: #2e5a7d;
     --secondary-black: #0d081a;
     --secondary-gray: #48464b;
-    --body-bg: #e4dcdc;
+    /* --body-bg: #e4dcdc; */
 }
 
 *{
