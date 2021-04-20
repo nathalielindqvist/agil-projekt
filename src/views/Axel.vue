@@ -69,9 +69,10 @@ body::-webkit-scrollbar {
 #scrollButton {
   display: flex;
   justify-content: flex-end;
-  margin-top: 10px;
+  padding-top: 10px;
   margin-right: 10px;
   position: sticky;
+  background-color: rgb(10, 12, 41);
 }
 
 .axelViewContainer {

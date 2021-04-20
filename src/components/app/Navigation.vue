@@ -26,7 +26,7 @@
 export default {
   data() {
     return {
-      hover: true,
+      hover: false,
     };
   },
   methods: {
