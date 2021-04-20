@@ -66,9 +66,9 @@ export default {
 <style scoped>
 
 /*>>>>>>>>>>>>>>> Background color <<<<<<<<<<<<<<<*/
-.container {
+/* .container {
     background-image: linear-gradient(to bottom right, #40edaa, #31af7f);
-}
+} */
 
 
 /*>>>>>>>>>>>>>>> General background layout <<<<<<<<<<<<<<<*/
@@ -76,7 +76,7 @@ export default {
     width: 60%;
     margin: auto;
     padding: 20px 20px 100px 20px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(212, 212, 212, 0.5);
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 
@@ -160,15 +160,21 @@ export default {
 
 
 /*>>>>>>>>>>>>>>> Link styling <<<<<<<<<<<<<<<*/
+.text-link {
+    color: orangered;
+    text-decoration: none;
+}
+
 .text-link:hover {
     text-decoration: underline;
-    color: #31af7f;
+    color: black;
 }
 
 
 /*>>>>>>>>>>>>>>> Header styling <<<<<<<<<<<<<<<*/
 .grid-item-header {
     margin: 1em 0;
+    color: orangered;
 }
 
 
