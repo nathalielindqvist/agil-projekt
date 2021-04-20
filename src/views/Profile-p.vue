@@ -163,13 +163,14 @@ export default {
     --primary-color: #2e5a7d;
     --secondary-black: #0d081a;
     --secondary-gray: #48464b;
-    /* --body-bg: #e4dcdc; */
+    --body-bg: #e4dcdc;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #e4dcdc;
 }
 
 html{
@@ -526,6 +527,7 @@ section{
     rgba(0, 0, 0, 0.17) 0px 12px 13px, 
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
     z-index: 2;
+    background-color: #e4dcdc;
 }
 
 #projects .item:nth-child(even) .right{
