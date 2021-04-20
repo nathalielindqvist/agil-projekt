@@ -160,10 +160,6 @@ export default {
 
 
 /*>>>>>>>>>>>>>>> Link styling <<<<<<<<<<<<<<<*/
-.text-link {
-    text-decoration: none;
-}
-
 .text-link:hover {
     text-decoration: underline;
     color: #31af7f;
