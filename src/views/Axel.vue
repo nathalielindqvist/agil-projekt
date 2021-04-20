@@ -88,15 +88,19 @@ body::-webkit-scrollbar {
 }
 
 #welcomeButtonPositioner {
+  background-color: rgb(66, 91, 128, 0.7);
+  width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: absolute;
   align-items: center;
 }
+#welcomeButtonPositioner:hover {
+  border: 1px solid black;
+}
 
 #nameHeader {
-  background-color: rgb(66, 91, 128, 0.7);
   color: white;
   padding: 20px;
   border-radius: 10px;

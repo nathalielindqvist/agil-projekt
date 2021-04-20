@@ -1,5 +1,6 @@
-<template>
-   <!--profile-->
+<!--<template>-->
+<!--profile
+   
     <section id="hero">
         <div class="container">
             <div class="left">
@@ -29,9 +30,11 @@
             </div>
         </div>
     </section>
-    <!--profile end-->
-    
-    <!--service-->
+    -->
+<!--profile end-->
+
+<!--service-->
+<!--
     <section id="services">
         <div class="container">
             <h2 class="section-heading" data-outline="Expreties">Expreties</h2>
@@ -52,8 +55,9 @@
                 <div class="item">
                     <div class="icon">
                         <img src="https://img.icons8.com/ios-filled/50/000000/unity.png"/>
-                    </div>
-                    <!-- <a href="https://icons8.com/icon/39848/unity">Unity icon by Icons8</a> -->
+                    </div>-->
+<!-- <a href="https://icons8.com/icon/39848/unity">Unity icon by Icons8</a> -->
+<!--
                     <h3 class="item-heading">Game Design</h3>
                     <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus! 
@@ -64,7 +68,9 @@
                     <div class="icon">
                         <img src="https://img.icons8.com/windows/32/000000/blender-3d.png"/>
                     </div>
-                    <!-- <a href="https://icons8.com/icon/49264/blender-3d">Blender 3D icon by Icons8</a> -->
+                    -->
+<!-- <a href="https://icons8.com/icon/49264/blender-3d">Blender 3D icon by Icons8</a> -->
+<!--
                     <h3 class="item-heading">Blender 3D</h3>
                     <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus! 
@@ -73,10 +79,11 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!--service end-->
+    </section>-->
+<!--service end-->
 
-    <!-- project  -->
+<!-- project  -->
+<!--
     <section id="projects">
         <div class="container">
             <h2 class="section-heading" data-outline="Projects">Projects</h2>
@@ -146,16 +153,20 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- project end -->
-</template>
+    </section>-->
+<!-- project end -->
+<!--
+</template>-->
 
+<!--
 <script>
 export default {
     
 }
 </script>
 
+-->
+<!--
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:wght@600&display=swap');
 
@@ -623,3 +634,4 @@ section{
 }
 </style>
 
+-->
