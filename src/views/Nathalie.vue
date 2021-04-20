@@ -183,4 +183,10 @@ ul {
     list-style-type: square;
 }
 
+
+/*>>>>>>>>>>>>>>> Text alignment<<<<<<<<<<<<<<<*/
+* {
+    text-align: center;
+}
+
 </style>
