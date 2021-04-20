@@ -46,6 +46,7 @@ export default {};
 h1 {
   text-align: center;
   font-size: 50px;
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -54,14 +55,18 @@ h2 {
   z-index: 10;
   font-size: 50px;
   max-height: 50px;
-  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: rgba(255, 69, 0, 0.7);
 }
 
 p {
   grid-column: 4/6;
   grid-row: 5/6;
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background-color: rgba(255, 69, 0, 0.7);
 }
 
 </style>
