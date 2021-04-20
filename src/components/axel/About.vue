@@ -61,7 +61,7 @@ p {
 }
 
 #arrowDown {
-  color: white;
+  color: orangered;
 }
 #arrowDown:hover {
   cursor: pointer;
@@ -70,6 +70,6 @@ p {
 }
 
 #arrowDown:active {
-  color: orangered;
+  color: white;
 }
 </style>

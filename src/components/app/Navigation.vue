@@ -26,7 +26,7 @@
 export default {
   data() {
     return {
-      hover: false,
+      hover: true,
     };
   },
   methods: {
@@ -40,14 +40,16 @@ export default {
 <style scoped>
 #navContainer {
   display: flex;
+  position: absolute;
+  z-index: 1;
 }
 
 #navIconWithoutHover {
-  color: black;
+  color: orangered;
   cursor: pointer;
 }
 #navIconWithoutHover:hover {
-  color: black;
+  color: orangered;
   cursor: pointer;
 }
 
@@ -61,18 +63,23 @@ export default {
 
 li {
   margin-left: 20px;
-  color: black;
+  color: orangered;
   list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+li:hover {
+  text-decoration: underline;
+}
+
 a,
 a:visited,
 a:hover,
 a:active {
   color: inherit;
   text-decoration: none;
-}
-
-a:hover {
-  color: orangered;
 }
 </style>

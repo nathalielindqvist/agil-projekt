@@ -19,15 +19,15 @@ export default {
   padding: 20px;
   border-radius: 10px;
   width: fit-content;
-  font-size: var(--h1);
+  font-size: 30px;
 }
 
 #welcomeButton:hover {
   cursor: pointer;
-  font-size: var(--h1);
+  font-size: 30px;
 }
 
 #welcomeButton:active {
-  font-size: var(--h1);
+  font-size: 30px;
 }
 </style>

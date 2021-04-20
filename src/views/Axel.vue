@@ -57,11 +57,7 @@ export default {
 </script>
 
 <style scoped>
-:root {
-  --h1: 40px;
-}
-
-body {
+#containerOne {
   background-color: rgb(10, 12, 41);
   margin: 0;
   width: 100%;
@@ -94,12 +90,13 @@ body::-webkit-scrollbar {
 
 #welcomeButtonPositioner {
   background-color: rgb(66, 91, 128, 0.7);
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: absolute;
   align-items: center;
+  border-radius: 3px;
 }
 #welcomeButtonPositioner:hover {
   border: 1px solid black;
@@ -109,7 +106,7 @@ body::-webkit-scrollbar {
   color: white;
   padding: 20px;
   border-radius: 10px;
-  font-size: var(--h1);
+  font-size: 30px;
 }
 
 #containerTwo {
