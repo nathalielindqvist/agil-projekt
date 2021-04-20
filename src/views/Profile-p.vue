@@ -1,6 +1,5 @@
 <!--<template>-->
-profile
-   
+   <template>
     <section id="hero">
         <div class="container">
             <div class="left">
