@@ -35,4 +35,11 @@ export default {
 #mainContainer {
   height: inherit;
 }
+
+:root{
+    --primary-color: #2e5a7d;
+    --secondary-black: #0d081a;
+    --secondary-gray: #48464b;
+    --body-bg: #e4dcdc;
+}
 </style>

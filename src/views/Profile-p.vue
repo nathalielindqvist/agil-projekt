@@ -1,5 +1,4 @@
-<!--<template>-->
-   <template>
+<template>
     <section id="hero">
         <div class="container">
             <div class="left">
@@ -54,7 +53,7 @@
                 <div class="item">
                     <div class="icon">
                         <img src="https://img.icons8.com/ios-filled/50/000000/unity.png"/>
-                    </div>-->
+                    </div>
 <!-- <a href="https://icons8.com/icon/39848/unity">Unity icon by Icons8</a> -->
 
                     <h3 class="item-heading">Game Design</h3>
@@ -166,23 +165,16 @@ export default {
 
 
 
-<style scoped>
+<style>
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:wght@600&display=swap');
 
-:root{
-    --primary-color: #2e5a7d;
-    --secondary-black: #0d081a;
-    --secondary-gray: #48464b;
-    --body-bg: #e4dcdc;
-}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #e4dcdc;
 } 
 
 html{
@@ -191,7 +183,7 @@ html{
 }
 
 body{
-    background-color: var(--body-bg);
+    background-color: #e4dcdc;
 }
 
 img{
@@ -223,7 +215,7 @@ section{
 
 .primary-btn{
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #2e5a7d;
     color: white;
     font-size: 1.8rem;
     padding: 0.6em 1.6em;
@@ -294,7 +286,7 @@ section{
     font-size: 1.8rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: #2e5a7d;
     opacity: 0;
     animation: fade 0.3s ease-in forwards;
     animation-delay: 1s;
@@ -498,12 +490,12 @@ section{
 
 .primary-btn-outline{
     display: inline-block;
-    background-color: var(--body-bg);
-    color: var(--primary-color);
+    background-color: #e4dcdc;
+    color: #2e5a7d;
     font-size: 1.8rem;
     padding: 0.6em 1.6em;
     border-radius: 50px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #2e5a7d;
 }
 
 #projects{
