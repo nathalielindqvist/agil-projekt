@@ -16,7 +16,7 @@ export default {
 <style scoped>
 i {
   position: fixed;
-  color: white;
+  color: orangered;
 }
 i:hover {
   cursor: pointer;
@@ -25,6 +25,6 @@ i:hover {
 }
 
 i:active {
-  color: orangered;
+  color: white;
 }
 </style>
