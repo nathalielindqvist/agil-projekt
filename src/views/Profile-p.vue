@@ -6,9 +6,9 @@
             <div class="left">
                 <p class="subheading">I'm PAKORN SODA</p>
                 <h2 class="heading">
-                    <div class="wrapper"><span>Who</span></div>
-                    <div class="wrapper"><span>are</span></div>
-                    <div class="wrapper"><span>you?</span></div>
+                    <div class="wrapper"><span class="span">Who</span></div>
+                    <div class="wrapper"><span class="span">are</span></div>
+                    <div class="wrapper"><span class="span">you?</span></div>
                 </h2>
                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Inventore laborum quidem, voluptate voluptatum iste reprehenderit!
@@ -170,27 +170,29 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:wght@600&display=swap');
 
-:root{
+/* :root{
     --primary-color: #2e5a7d;
     --secondary-black: #0d081a;
     --secondary-gray: #48464b;
     --body-bg: #e4dcdc;
-}
+} */
 
 *{
+    font-family: 'Roboto Mono';
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: transparent;
 }
 
 html{
-    font-family: 'Roboto Mono', sans-serif;
     font-size: 10px;
 }
-
+/* 
 body{
-    background-color: var(--body-bg);
-}
+    /* background-color: var(--body-bg); */
+    /* background-color: #e4dcdc; */
+/* } */
 
 img{
     width: 100%;
@@ -204,7 +206,7 @@ a{
 
 p{
     font-size: 1.6rem;
-    color: var(--secondary-black);
+    color: black;
 }
 
 section{
@@ -219,11 +221,21 @@ section{
     max-width: 1000px;
 }
 
+/* .wrapper{
+    margin: 5px;
+} */
+
+.span{
+    font-size: 4rem;
+    margin: 5px;
+}
+
 .primary-btn{
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #2e5a7d;
     color: white;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
+    font-size: 1.25rem;
     padding: 0.6em 1.6em;
     border-radius: 50px;
 }
@@ -238,7 +250,7 @@ section{
 
 .buttons svg{
     width: 50px;
-    color: var(--primary-color);
+    color: #2e5a7d;
 }
 
 .section-heading{
@@ -272,6 +284,7 @@ section{
     height: 100vh;
     width: 100%;
     padding-top: 10rem;
+    background-color: #e4dcdc;
 }
 
 #hero .container{
@@ -292,7 +305,7 @@ section{
     font-size: 1.8rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: #2e5a7d;
     opacity: 0;
     animation: fade 0.3s ease-in forwards;
     animation-delay: 1s;
@@ -406,6 +419,7 @@ section{
 
 #services{
     padding: 15rem 0;
+    background-color: #e4dcdc;
 }
 
 #services .all-items{
@@ -449,7 +463,7 @@ section{
 }
 
 #services .item-desc{
-    color: var(--secondary-gray);
+    color: #48464b;
 }
 
 #services .item:nth-child(1) .icon{
@@ -496,16 +510,18 @@ section{
 
 .primary-btn-outline{
     display: inline-block;
-    background-color: var(--body-bg);
-    color: var(--primary-color);
-    font-size: 1.8rem;
+    background-color: #e4dcdc;
+    color: #2e5a7d;
+    /* font-size: 1.8rem; */
+    font-size: 1.25rem;
     padding: 0.6em 1.6em;
     border-radius: 50px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #2e5a7d;
 }
 
 #projects{
     padding: 10rem 0;
+    background-color: #e4dcdc;
 }
 
 #projects .item{
@@ -527,7 +543,7 @@ section{
 #projects .item .right{
     flex: 1;
     margin-left: -150px;
-    background-color: var(--body-bg);
+    background-color:#e4dcdc;
     padding: 5rem 2rem;
     border-radius: 12px;
     /* box-shadow: 0 0 20px #3a3a3a28; */
@@ -587,7 +603,7 @@ section{
 }
 
 #projects .item .right .project-desc{
-    color: var(--secondary-gray);
+    color: #48464b;
     margin-bottom: 3rem;
 }
 
