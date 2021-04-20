@@ -1,5 +1,5 @@
-<!--<template>-->
-profile
+<template>
+<!-- profile -->
    
     <section id="hero">
         <div class="container">
@@ -55,7 +55,7 @@ profile
                 <div class="item">
                     <div class="icon">
                         <img src="https://img.icons8.com/ios-filled/50/000000/unity.png"/>
-                    </div>-->
+                    </div>
 <!-- <a href="https://icons8.com/icon/39848/unity">Unity icon by Icons8</a> -->
 
                     <h3 class="item-heading">Game Design</h3>

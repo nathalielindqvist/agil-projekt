@@ -16,6 +16,7 @@
         <li><router-link to="Axel">Axel</router-link></li>
         <li><router-link to="Nathalie">Nathalie</router-link></li>
         <li><router-link to="Profile-p">Pakorn</router-link></li>
+        <li><router-link to="danny">Danny</router-link></li>
       </ul>
     </div>
   </div>
@@ -42,11 +43,11 @@ export default {
 }
 
 #navIconWithoutHover {
-  color: white;
+  color: black;
   cursor: pointer;
 }
 #navIconWithoutHover:hover {
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -60,7 +61,7 @@ export default {
 
 li {
   margin-left: 20px;
-  color: white;
+  color: black;
   list-style: none;
 }
 a,
