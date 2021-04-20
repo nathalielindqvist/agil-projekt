@@ -1,5 +1,6 @@
-<template>
-   <!--profile-->
+<!--<template>-->
+profile
+   
     <section id="hero">
         <div class="container">
             <div class="left">
@@ -9,16 +10,16 @@
                     <div class="wrapper"><span>are</span></div>
                     <div class="wrapper"><span>you?</span></div>
                 </h2>
-                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Inventore laborum quidem, voluptate voluptatum iste reprehenderit!
                 </p>
                 <div class="buttons">
                     <a href="#" class="primary-btn">See My Works</a>
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" 
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                             d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" 
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                             d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </a>
@@ -29,9 +30,11 @@
             </div>
         </div>
     </section>
-    <!--profile end-->
-    
-    <!--service-->
+
+<!--profile end-->
+
+<!--service-->
+
     <section id="services">
         <div class="container">
             <h2 class="section-heading" data-outline="Expreties">Expreties</h2>
@@ -39,24 +42,25 @@
                 <div class="item">
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" 
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                         d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                     </div>
                     <h3 class="item-heading">Web Design</h3>
-                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus! 
+                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus!
                         Deleniti rem culpa voluptate inventore impedit!
                     </p>
                 </div>
                 <div class="item">
                     <div class="icon">
                         <img src="https://img.icons8.com/ios-filled/50/000000/unity.png"/>
-                    </div>
-                    <!-- <a href="https://icons8.com/icon/39848/unity">Unity icon by Icons8</a> -->
+                    </div>-->
+<!-- <a href="https://icons8.com/icon/39848/unity">Unity icon by Icons8</a> -->
+
                     <h3 class="item-heading">Game Design</h3>
-                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus! 
+                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus!
                         Deleniti rem culpa voluptate inventore impedit!
                     </p>
                 </div>
@@ -64,19 +68,22 @@
                     <div class="icon">
                         <img src="https://img.icons8.com/windows/32/000000/blender-3d.png"/>
                     </div>
-                    <!-- <a href="https://icons8.com/icon/49264/blender-3d">Blender 3D icon by Icons8</a> -->
+                    
+<!-- <a href="https://icons8.com/icon/49264/blender-3d">Blender 3D icon by Icons8</a> -->
+
                     <h3 class="item-heading">Blender 3D</h3>
-                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus! 
+                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe molestiae, itaque incidunt magni dicta veniam nesciunt veritatis sapiente voluptatibus!
                         Deleniti rem culpa voluptate inventore impedit!
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <!--service end-->
+<!--service end-->
 
-    <!-- project  -->
+<!-- project  -->
+
     <section id="projects">
         <div class="container">
             <h2 class="section-heading" data-outline="Projects">Projects</h2>
@@ -89,9 +96,9 @@
                     </div>
                     <div class="right">
                         <h2 class="project-title">Project work #1</h2>
-                        <h3 class="project-sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        <h3 class="project-sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Quidem exercitationem cupiditate minima voluptatem laboriosam veniam!</h3>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Impedit quam consectetur, quo nisi laudantium ratione!</p>
                         <div class="buttons">
                             <a href="#" class="primary-btn">Know more</a>
@@ -110,9 +117,9 @@
                     </div>
                     <div class="right">
                         <h2 class="project-title">Project work #2</h2>
-                        <h3 class="project-sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        <h3 class="project-sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Quidem exercitationem cupiditate minima voluptatem laboriosam veniam!</h3>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Impedit quam consectetur, quo nisi laudantium ratione!</p>
                         <div class="buttons">
                             <a href="#" class="primary-btn">Know more</a>
@@ -131,9 +138,9 @@
                     </div>
                     <div class="right">
                         <h2 class="project-title">Project work #3</h2>
-                        <h3 class="project-sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        <h3 class="project-sub-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Quidem exercitationem cupiditate minima voluptatem laboriosam veniam!</h3>
-                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Impedit quam consectetur, quo nisi laudantium ratione!</p>
                         <div class="buttons">
                             <a href="#" class="primary-btn">Know more</a>
@@ -147,16 +154,22 @@
             </div>
         </div>
     </section>
-    <!-- project end -->
+<!-- project end -->
+
 </template>
+
 
 <script>
 export default {
-    
+
 }
 </script>
 
+
+
 <style scoped>
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono:wght@600&display=swap');
 
 :root{
@@ -171,7 +184,7 @@ export default {
     margin: 0;
     box-sizing: border-box;
     background-color: #e4dcdc;
-}
+} 
 
 html{
     font-family: 'Roboto Mono', sans-serif;
@@ -472,11 +485,11 @@ section{
     #services .item:nth-child(1){
         background-color: lightblue;
     }
-    
+
     #services .item:nth-child(2){
         background-color: #f5f5f5;
     }
-    
+
     #services .item:nth-child(3){
         background-color: lightcoral;
     }
@@ -521,10 +534,10 @@ section{
     padding: 5rem 2rem;
     border-radius: 12px;
     /* box-shadow: 0 0 20px #3a3a3a28; */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
     z-index: 2;
     background-color: #e4dcdc;
@@ -624,4 +637,3 @@ section{
     }
 }
 </style>
-

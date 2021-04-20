@@ -9,15 +9,23 @@
   </div>
   <div id="mainContainer">
     <!-- <router-link to="/Axel">Axel</router-link> -->
+  </div>
+  <div>
+    <Navigation />
     <router-view />
-
   </div>
 </template>
 
 <script>
-export default {};
+import Navigation from "./components/app/Navigation";
+export default {
+  components: {
+    Navigation,
+  },
+};
 </script>
-<style>
+<style scoped>
+
 * {
   box-sizing: border-box;
 }
