@@ -8,7 +8,6 @@ export default {
   methods: {
     scrollPageTo() {
       const newElement = document.getElementsByClassName("axelViewContainer");
-      console.log(newElement[1]);
       newElement[1].scrollIntoView({ behavior: "smooth" });
     },
   },
@@ -17,17 +16,18 @@ export default {
 
 <style scoped>
 #welcomeButton {
-  background-color: rgb(66, 91, 128, 0.7);
   padding: 20px;
   border-radius: 10px;
   width: fit-content;
+  font-size: var(--h1);
 }
 
 #welcomeButton:hover {
   cursor: pointer;
+  font-size: var(--h1);
 }
 
 #welcomeButton:active {
-  font-size: 28px;
+  font-size: var(--h1);
 }
 </style>
