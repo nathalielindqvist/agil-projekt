@@ -15,7 +15,7 @@
       <ul id="navList">
         <li><router-link to="Axel">Axel</router-link></li>
         <li><router-link to="Nathalie">Nathalie</router-link></li>
-        <li><router-link to="Profile-p">Pakorn</router-link></li>
+        <li><router-link to="pakorn">Pakorn</router-link></li>
         <li><router-link to="danny">Danny</router-link></li>
       </ul>
     </div>
