@@ -57,10 +57,15 @@ export default {
 </script>
 
 <style>
+:root {
+  --h1: 40px;
+}
+
 body {
   background-color: rgb(10, 12, 41);
   margin: 0;
   width: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -104,6 +109,7 @@ body::-webkit-scrollbar {
   color: white;
   padding: 20px;
   border-radius: 10px;
+  font-size: var(--h1);
 }
 
 #containerTwo {
