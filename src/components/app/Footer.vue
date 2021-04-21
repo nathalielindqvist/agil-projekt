@@ -14,7 +14,8 @@
         <div class="footer-left">
 
             <p class="footer-links">
-            <a class="link-1" href="#">Home</a>
+
+            <router-link to="../../views/">Home</router-link>
 
             <a href="#">Blog</a>
 
@@ -24,7 +25,9 @@
 
             <a href="#">Faq</a>
 
-            <a href="#">Contact</a>
+            <router-link to="../../views/Contact">Contact</router-link>
+
+            <!-- <a href="../../views/Contact.vue">Contact</a> -->
             </p>
 
             <p>AGIL Group 2 &copy; 2021</p>
