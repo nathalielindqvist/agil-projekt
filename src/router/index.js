@@ -8,6 +8,8 @@ import Nathalie from '../views/Nathalie.vue'
 
 import ProfileDanny from "../views/ProfileDanny.vue"
 
+import Contact from "../views/Contact.vue"
+
 const routes = [
   {
     path: "/",
@@ -36,6 +38,12 @@ const routes = [
     path: '/danny',
     name: 'ProfileDanny',
     component: ProfileDanny
+  },
+
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   }
 ]
 

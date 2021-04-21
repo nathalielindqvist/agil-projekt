@@ -17,6 +17,7 @@
         <li><router-link to="Nathalie">Nathalie</router-link></li>
         <li><router-link to="pakorn">Pakorn</router-link></li>
         <li><router-link to="danny">Danny</router-link></li>
+        <li><router-link to="contact">Contact</router-link></li>
       </ul>
     </div>
   </div>
