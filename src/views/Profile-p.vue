@@ -37,7 +37,7 @@
 
     <section id="services">
         <div class="container">
-            <h2 class="section-heading" data-outline="Expreties">Expreties</h2>
+            <h2 class="section-heading" data-outline="expertise">expertise</h2>
             <div class="all-items">
                 <div class="item">
                     <div class="icon">
@@ -263,9 +263,9 @@ section{
     margin-bottom: 10rem;
 }
 
-.section-heading::before{
-    content: attr(data-outline);
-    position: absolute;
+.section-heading::before {
+    content: attr(data-outline) ;
+    position: absolute; 
     left: 2%;
     top: -20%;
     width: 100%;
