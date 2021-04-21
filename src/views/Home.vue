@@ -57,7 +57,6 @@ h2 {
   font-size: 40px;
   max-height: 50px;
   text-align: center;
-  /* background-color: rgba(255, 255, 255, 0.2); */
   background-color: rgba(255, 69, 0, 0.7);
 }
 
@@ -67,7 +66,6 @@ p {
   z-index: 10;
   text-align: center;
   height: 200px;
-  /* background-color: rgba(255, 255, 255, 0.3); */
   background-color: rgba(255, 69, 0, 0.7);
 }
 
