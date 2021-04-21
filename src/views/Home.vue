@@ -25,12 +25,12 @@ export default {};
 
 .content {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(9, 11%);
   grid-template-rows: repeat(5, 20%);
 }
 
 #img1 {
-  grid-column: 2/5;
+  grid-column: 1/4;
   grid-row: 1/3;
   filter: opacity(70%);
   z-index: 1;
@@ -47,16 +47,16 @@ h1 {
   text-align: center;
   font-size: 50px;
   margin-bottom: 1em;
+  padding-top: 1em;
 }
 
 h2 {
   grid-column: 4/7;
   grid-row: 2/3;
   z-index: 10;
-  font-size: 50px;
+  font-size: 40px;
   max-height: 50px;
   text-align: center;
-  /* background-color: rgba(255, 255, 255, 0.2); */
   background-color: rgba(255, 69, 0, 0.7);
 }
 
@@ -65,7 +65,7 @@ p {
   grid-row: 5/6;
   z-index: 10;
   text-align: center;
-  /* background-color: rgba(255, 255, 255, 0.3); */
+  height: 200px;
   background-color: rgba(255, 69, 0, 0.7);
 }
 
