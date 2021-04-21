@@ -25,7 +25,7 @@ export default {};
 
 .content {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(9, 11%);
   grid-template-rows: repeat(5, 20%);
 }
 
