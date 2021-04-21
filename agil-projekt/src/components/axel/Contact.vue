@@ -1,5 +1,5 @@
 <template>
-  <div @click.prevent="goToContact">
+  <div>
     Want to reach out?
   </div>
 </template>
@@ -8,11 +8,6 @@
 export default {
   data() {
     return {};
-  },
-  methods: {
-    goToContact() {
-      this.$router.replace({ name: "Contact" });
-    },
   },
 };
 </script>

@@ -13,6 +13,7 @@
     ></i>
     <div v-if="hover" id="navBarDropContainer">
       <ul id="navList">
+        <li><router-link to="/">Home</router-link></li>
         <li><router-link to="Axel">Axel</router-link></li>
         <li><router-link to="Nathalie">Nathalie</router-link></li>
         <li><router-link to="pakorn">Pakorn</router-link></li>
@@ -27,7 +28,7 @@
 export default {
   data() {
     return {
-      hover: false,
+      hover: true,
     };
   },
   methods: {
@@ -82,5 +83,6 @@ a:hover,
 a:active {
   color: inherit;
   text-decoration: none;
+  font-size: 18px;
 }
 </style>
