@@ -73,7 +73,7 @@ export default {
 
 /*>>>>>>>>>>>>>>> General background layout <<<<<<<<<<<<<<<*/
 .content {
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding: 20px 20px 100px 20px;
     background-color: rgba(212, 212, 212, 0.5);

@@ -30,7 +30,7 @@ export default {};
 }
 
 #img1 {
-  grid-column: 2/5;
+  grid-column: 1/4;
   grid-row: 1/3;
   filter: opacity(70%);
   z-index: 1;
@@ -53,7 +53,7 @@ h2 {
   grid-column: 4/7;
   grid-row: 2/3;
   z-index: 10;
-  font-size: 50px;
+  font-size: 40px;
   max-height: 50px;
   text-align: center;
   /* background-color: rgba(255, 255, 255, 0.2); */
@@ -65,6 +65,7 @@ p {
   grid-row: 5/6;
   z-index: 10;
   text-align: center;
+  height: 200px;
   /* background-color: rgba(255, 255, 255, 0.3); */
   background-color: rgba(255, 69, 0, 0.7);
 }
